@@ -1,0 +1,13 @@
+---
+title: "Lab 7 Rank Based Test"
+author: "Sidney Gerst"
+date: "November 14, 2018"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+Hi this is sidney and Daphne is the Dancing Queen now
+
