@@ -11,3 +11,24 @@ knitr::opts_chunk$set(echo = TRUE)
 
 Hi this is sidney and Daphne is the Dancing Queen now
 
+
+
+Collaborator: This is the Dancing Queen, and I'm going to make some kick-ass histograms
+```{r}
+
+library(tidyverse)
+kermit <- read_csv("kermit.csv")
+
+
+#Histogram made
+kermit_hist <- ggplot(kermit, aes(x = Score.pre)) +
+  geom_histogram() +
+  facet_wrap(~ Gender)
+
+kermit_hist
+
+
+
+
+```
+
