@@ -32,3 +32,23 @@ kermit_hist
 
 ```
 
+Creator: doing some dope ass rank-based tests
+```{r}
+#is there a signifigant difference in pre-talk Kermit scores for males and females?
+
+#H0: No
+
+#unpaired: Mann-Whitney U, use wilcox.test for both this and Wilcoxen test, but just say paired
+
+mwu_kermit <- kermit %>%
+  wilcox.test(Score.pre ~ Gender, data = .)
+
+mwu_kermit
+
+#no sig diff yo
+
+
+```
+
+
+
